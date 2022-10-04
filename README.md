@@ -1,8 +1,6 @@
 # E-commerce website
 
-## Used Techs
-
----
+## Tech Used
 
 -   React
 -   Styled Components
