@@ -6,10 +6,13 @@ import Navbar from '../components/Navbar';
 import NewsLetter from '../components/NewsLetter';
 import Products from '../components/Products';
 import Slider from '../components/Slider';
+import styled from 'styled-components';
+
+const Container = styled.div``;
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             <Announcement />
             <Navbar />
             <Slider />
@@ -17,7 +20,7 @@ const Home = () => {
             <Products />
             <NewsLetter />
             <Footer />
-        </div>
+        </Container>
     );
 };
 
